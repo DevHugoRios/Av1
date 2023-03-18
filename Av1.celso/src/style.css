@@ -1,0 +1,27 @@
+body {
+    background-image: url("https://www.state.gov/wp-content/uploads/2019/04/Science-Technology-shutterstock_449187505-2560x852.jpg");
+   padding: 0;
+   margin: 0;
+   
+  }
+  .Título{
+    font-family: 'Roboto', sans-serif;
+  }
+  footer {
+    position: fixed; /* o fixed posiciona o rodapé no final da página*/
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+header{
+    font-family: monospace;
+
+}  
+.tec{
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
