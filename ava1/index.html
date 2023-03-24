@@ -13,20 +13,20 @@
     </head>
 
     <body>
-        <header>
+        <header> <!--cabeçalho com icone, nome do site e navegação-->
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="index.html"><img src="src/icone1.png" >Help Mei!</a>
+                  <a class="navbar-brand" href="index.html"><img src="src/icone1.png" alt="icone" > Help Mei!</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Início</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Início</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="src/fornecedores.html">Fornecedores</a>
+                        <a class="nav-link" href="fornecedores.html">Fornecedores</a>
                       </li>
                     </ul>
                   </div>
@@ -34,30 +34,25 @@
               </nav>
         </header>
 
-        <div id="carouselExample" class="carousel slide">
+        <section>
+          <div id="carouselExampleSlidesOnly" class="carousel slide"  data-bs-ride="carousel"> <!--carrosel de imagens -->
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="teste1.jpg" class="d-block w-100" alt="..." >
               </div>
               <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="teste2.jpg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="teste3.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
+        </section>
+            
         
-        <main>
-            <section> <!-- essa tag envolve um conteúdo, uma especíe de tópico, é legal para coisas com título e texto-->
+        <main> <!--Parte principal de texto-->
+            <section> 
                 <h1 class="titulo1">Quem Somos?</h1>
 
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor dicta ea doloribus ipsam porro incidunt officia maxime, ipsa hic eaque ullam recusandae sed velit cumque nostrum. Temporibus ea exercitationem tenetur? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis rem quod culpa consequuntur neque, reiciendis saepe ipsam nam veritatis nisi numquam doloribus non autem odit, fuga, mollitia suscipit at perspiciatis. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae neque autem quibusdam, assumenda ut id dolorum beatae molestias aperiam obcaecati et consequuntur in fuga, provident incidunt voluptas sit culpa. Illum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ratione soluta ex doloremque asperiores odit, iure mollitia rerum vel ipsa est, fugiat et optio expedita corporis, adipisci quas facilis in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus cum nesciunt, veritatis voluptatum, nostrum rem fugit soluta, sint voluptas officiis aliquam eaque quae. Dolores, quod? Autem dolores consectetur adipisci accusantium.</p>
@@ -70,6 +65,7 @@
 
 
             </section>
+
         </main>
        
 
@@ -85,7 +81,7 @@
             integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"></script>
 
-        <footer>
+        <footer> <!--Rodapé com icones de redirecionamento para redes sociais-->
             <div class="icons"> <a class="inline_block opacity"
                     href="https://maconhafoda.site/" target="_blank"
                     rel="noopener noreferrer"> <img id="footer_linkedin"
@@ -104,7 +100,7 @@
                         src="https://cdn-icons-png.flaticon.com/512/4923/4923005.png"
                         alt="Logo YouTube" width="24" height="24"> </a></div>
 
-            <p> HelpMei 2023 © Todos os direitos reservados.</p>
+            <p> HelpMei! 2023 © Todos os direitos reservados.</p>
             
         </footer>
     </body>
