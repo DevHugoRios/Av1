@@ -1,0 +1,71 @@
+
+
+header {
+    background-color: #81c9fa;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 19.5px;
+    text-decoration: none solid rgb(38, 38, 38);
+    text-align: left;
+    word-spacing: 0px;
+    background-position: 0% 0%;
+    color: black;
+    
+}
+
+.header2 {
+    background-color: #81c9fa;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 19.5px;
+    text-decoration: none solid rgb(38, 38, 38);
+    text-align: left;
+    word-spacing: 0px;
+
+    background-position: 0% 0%;
+    color: #262626;
+}
+
+.p1 {
+    text-align: justify;
+}
+
+.p2 {
+    text-align: justify;
+}
+
+.img1 {
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+footer {
+
+    background-color: #81c9fa;
+    padding-left: 450px;
+    display: block;
+    padding-bottom: 1px;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icons {
+    padding-left: 120px;
+}
+
+.yt-icon {
+    padding-left: 10px;
+}
+
+.insta-icon {
+    padding-left: 10px;
+}
+
+.whats-icon {
+    padding-left: 10px;
+}
